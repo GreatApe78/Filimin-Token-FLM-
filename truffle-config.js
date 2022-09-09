@@ -1,6 +1,6 @@
 const HDWalletProvider = require('@truffle/hdwallet-provider'); //Lembre-se de instalar essa biblioteca para deploiar os contratos nas redes remotas (Mainnet, Rinkeby, Ropsten, Goerli, etc)
 const fs = require('fs');
-const infuraKey = "wss://rinkeby.infura.io/ws/v3/19db600c4b924b1ea35e91835bd592c6";
+const infuraKey = fs.readFileSync("infura_address").toString().trim();
 const mnemonic = fs.readFileSync(".secret").toString().trim(); //Leitura da frase secreta contida no arquivo .secret
 module.exports = {
   networks: {
