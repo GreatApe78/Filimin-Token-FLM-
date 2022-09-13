@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,25 +8,40 @@
     <link rel="stylesheet" href="style.css">
     <title>Filimin Token</title>
 </head>
-<body>
-    
 
-    <button id="ver_FLM">Ver quantidade de Filimins Token</button>
+<body>
+    <nav>
+        <h1>Filimin Token</h1>
+    </nav>
+
+    <button id="ver_FLM" class="getters">Ver quantidade de Filimins Token</button>
 
     <div id="mostrar_FLM"> </div>
 
-    <button id="ver_dono">ver hash do criador do contrato</button>
+    <button id="ver_dono" class="getters">ver hash do criador do contrato</button>
 
     <div id="aparece_hash_dono"></div>
 
-    <button id="ver_contrato">ver endereço do contrato</button>
+    <button id="ver_contrato" class="getters">ver endereço do contrato</button>
 
     <div id="mostrar_contrato"></div>
 
-    <div></div>
-    <a href="https://rinkeby.etherscan.io/token/tokenholderchart/0x5B0ae342Da07F0E76400529D56021a1f3CceE8b8">VEJA O CONTRATO NO ETHERSCAN</a>
+    <button id="view_FLM" class="getters">ver quantidade de FLM na sua carteira</button>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.5/web3.min.js" integrity="sha512-/T7YwzOsNeoNkuTfYKXn3CrJCGc5cnC8T4QW46Hy+3Xjdjrxzokmbx8M8Xavjq1K7dN4958kIRGy4J03VRIlSg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <div id="show_balance" class=""></div>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyOfqpM_K0RRTo8Sf4-FlitQOo3Ow2mGzzyw&usqp=CAU"
+        alt="" srcset="">
+
+
+    <div></div>
+    <a href="https://rinkeby.etherscan.io/token/tokenholderchart/0x5B0ae342Da07F0E76400529D56021a1f3CceE8b8">VEJA O
+        CONTRATO NO ETHERSCAN</a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.5/web3.min.js"
+        integrity="sha512-/T7YwzOsNeoNkuTfYKXn3CrJCGc5cnC8T4QW46Hy+3Xjdjrxzokmbx8M8Xavjq1K7dN4958kIRGy4J03VRIlSg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./script.js" type="module"></script>
 </body>
+
 </html>
