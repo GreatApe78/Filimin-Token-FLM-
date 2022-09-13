@@ -161,7 +161,7 @@ async function ShowBalance() {
 
 
 }
-
+//wd
 view_FLM.addEventListener("click", () => {
 
     ShowBalance().then((chamada) => {
